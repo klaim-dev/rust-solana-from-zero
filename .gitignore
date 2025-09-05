@@ -1,0 +1,92 @@
+# =========================
+# Universal .gitignore for this repo
+# Monorepo: Rust (workspace with subcrates), possible wasm + JS tooling
+# =========================
+
+# ---------- Rust / Cargo ----------
+**/target/
+**/*.rs.bk
+# Bench artifacts (sometimes outside target)
+**/criterion/
+# Rust coverage / profiling
+**/*.profraw
+**/*.profdata
+**/coverage/
+**/kcov*/
+**/tarpaulin-report.*
+**/grcov/
+**/lcov.info
+**/cobertura.xml
+**/htmlcov/
+# Rust build helpers (optional caches)
+.sccache/
+.mold/
+zig-cache/
+zig-out/
+
+# Keep Cargo.lock committed (application/monorepo) — do NOT ignore it.
+
+# ---------- Wasm / wasm-pack ----------
+**/pkg/
+**/wasm-pack.log
+
+# ---------- Node / JS toolchains (for wasm UIs or scripts) ----------
+**/node_modules/
+**/.pnp.cjs
+**/.pnp.loader.mjs
+**/.pnpm-store/
+**/dist/
+**/build/
+**/out/
+**/.parcel-cache/
+**/.vite/
+**/.next/
+**/.nuxt/
+**/.turbo/
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- Env / secrets ----------
+.env
+.env.*
+!.env.example
+!.env.sample
+# direnv
+.direnv/
+
+# ---------- IDE / Editors ----------
+.vscode/
+.idea/
+.fleet/
+*.iml
+
+# ---------- OS / misc temp ----------
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*~
+*#
+*.swp
+*.swo
+.cache/
+tmp/
+temp/
+logs/
+
+# ---------- Python (in case of helper scripts) ----------
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+.venv/
+venv/
+
+# ---------- Documentation build caches ----------
+**/.docusaurus/
+**/.vitepress/cache/
