@@ -39,26 +39,6 @@ rust-solana-from-zero/
 
 > Every `dayXX` is a tiny **binary** crate with `Cargo.toml`, `src/`, and tests. No nested git repos — one clean monorepo.
 
----
-
-## Quickstart
-
-```bash
-# pick a day
-cd rust/foundation/day05
-
-# run unit tests
-cargo test
-
-# run the demo/binary
-cargo run
-```
-
-**Requires:** `rustup` (stable), `cargo`.  
-_Nice to have:_ `just`, `cargo-nextest`.
-
----
-
 ## Live Progress
 
 **Foundation (30 days)**  
@@ -71,7 +51,7 @@ _Nice to have:_ `just`, `cargo-nextest`.
 - ✅ [day04](rust/foundation/day04) — ownership, move/clone/Copy  
 - ✅ [day05](rust/foundation/day05) — borrowing, &T/&mut T, slices, split_at_mut  
 - ✅ [day06](rust/foundation/day06) — Result/Option, ?, domain error enum, checked arithmetic  
-- ⏳ day07 — Result, lightweight error handling  
+- ✅ [day07](rust/foundation/day06) — parsing layer, Result/?/ok_or/map_err, thiserror + Display  
 - ⏳ day08 — enums & pattern matching (API design)  
 - ⏳ day09 — impl, methods, ergonomics & autoderef  
 - … up to day30
