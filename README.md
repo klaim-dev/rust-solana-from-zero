@@ -43,7 +43,7 @@ rust-solana-from-zero/
 
 **Foundation (30 days)**  
 ```
-[######------------------------] 6 / 30
+[#########----------------------] 8 / 30
 ```
 - ✅ [day01](rust/foundation/day01) — variables, String/&str, stack vs heap  
 - ✅ [day02](rust/foundation/day02) — arithmetic, logic, if/else  
@@ -51,8 +51,8 @@ rust-solana-from-zero/
 - ✅ [day04](rust/foundation/day04) — ownership, move/clone/Copy  
 - ✅ [day05](rust/foundation/day05) — borrowing, &T/&mut T, slices, split_at_mut  
 - ✅ [day06](rust/foundation/day06) — Result/Option, ?, domain error enum, checked arithmetic  
-- ✅ [day07](rust/foundation/day06) — parsing layer, Result/?/ok_or/map_err, thiserror + Display  
-- ⏳ day08 — enums & pattern matching (API design)  
+- ✅ [day07](rust/foundation/day07) — parsing layer, Result/?/ok_or/map_err, thiserror + Display  
+- ✅ [day08](rust/foundation/day08) — refactor to ?, single &mut-pair helper, checked_* money, normalized errors  
 - ⏳ day09 — impl, methods, ergonomics & autoderef  
 - … up to day30
 
