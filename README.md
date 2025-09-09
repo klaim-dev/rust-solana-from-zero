@@ -43,7 +43,7 @@ rust-solana-from-zero/
 
 **Foundation (30 days)**  
 ```
-[#########----------------------] 8 / 30
+[##########---------------------] 9 / 30
 ```
 - ✅ [day01](rust/foundation/day01) — variables, String/&str, stack vs heap  
 - ✅ [day02](rust/foundation/day02) — arithmetic, logic, if/else  
@@ -53,7 +53,7 @@ rust-solana-from-zero/
 - ✅ [day06](rust/foundation/day06) — Result/Option, ?, domain error enum, checked arithmetic  
 - ✅ [day07](rust/foundation/day07) — parsing layer, Result/?/ok_or/map_err, thiserror + Display  
 - ✅ [day08](rust/foundation/day08) — refactor to ?, single &mut-pair helper, checked_* money, normalized errors  
-- ⏳ day09 — impl, methods, ergonomics & autoderef  
+- ✅ [day09](rust/foundation/day09) — impl, methods, ergonomics  
 - … up to day30
 
 _DevLog rule: one day → one commit (plus tiny follow‑ups if needed)._
