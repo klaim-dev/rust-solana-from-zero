@@ -7,7 +7,7 @@
 ```
 [#-----------------------------] 1 / 30
 ```
-- ⏳ [day01](foundation/day01) — variables, String/&str, stack vs heap  
+- ✅ [day01](foundation/day01) — variables, String/&str, stack vs heap  
 - ⏳ [day02](Soon) — arithmetic, logic, if/else  
 - ⏳ [day03](Soon) — functions, params, tuples, return  
 - ⏳ [day04](Soon) — ownership, move/clone/Copy  
