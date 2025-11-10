@@ -5,7 +5,7 @@
 
 **Foundation (30 days)**  
 ```
-[------------------------------] 0 / 30
+[#-----------------------------] 1 / 30
 ```
 - ⏳ [day01](foundation/day01) — variables, String/&str, stack vs heap  
 - ⏳ [day02](Soon) — arithmetic, logic, if/else  
