@@ -1,0 +1,145 @@
+# ===========================================
+# 🦀 Rust / Cargo
+# ===========================================
+/target
+**/target/
+**/*.rs.bk
+**/*.pdb
+**/*.dSYM
+**/*.rlib
+**/*.rmeta
+**/*.so
+**/*.dll
+**/*.exe
+**/*.out
+**/*.a
+**/*.o
+
+# Cargo lockfiles
+Cargo.lock
+!*/Cargo.lock   # разрешаем внутренние логи для под-крейтов (dayXX)
+
+# ===========================================
+# 🧰 Build / Cache / Artifacts
+# ===========================================
+/build/
+**/build/
+**/dist/
+**/tmp/
+**/.rustc_info.json
+**/.cargo-lock
+**/flycheck*
+**/.cargo-ok
+**/.cargo/
+**/.cache/
+**/.clippy-driver.json
+
+# ===========================================
+# 🧪 Tests / Coverage
+# ===========================================
+/coverage/
+**/coverage/
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+*.gcov
+*.log
+*.pid
+
+# ===========================================
+# 🧠 IDE / Editor
+# ===========================================
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains (CLion, RustRover)
+.idea/
+*.iml
+
+# Rust Analyzer
+.rust-analyzer
+.rust-analyzer.json
+
+# Vim / Neovim / Emacs
+*.swp
+*.swo
+*~
+.#*
+
+# ===========================================
+# 🧩 OS System / Desktop
+# ===========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ===========================================
+# 🐳 Docker / DevOps / Envs
+# ===========================================
+.env
+.env.*
+!.env.example
+docker-compose.override.yml
+*.local.yml
+*.bak
+*.tmp
+*.temp
+*.old
+*.backup
+
+# ===========================================
+# 🧾 Logs / Reports
+# ===========================================
+*.log
+logs/
+**/logs/
+*.trace
+*.jsonl
+
+# ===========================================
+# 🧱 Project-specific
+# ===========================================
+# Temporary notes, experiments
+**/scratch/
+**/notes/
+**/benchmarks/
+**/examples/tmp/
+**/__pycache__/
+
+# Ignore artifacts from SQLx or DB builds
+**/.sqlx/
+**/migrations/.tmp/
+**/migrations/_old/
+
+# Ignore node modules if front-part appears later
+node_modules/
+package-lock.json
+yarn.lock
+
+# ===========================================
+# 🧩 Generated Docs / Reports / Build
+# ===========================================
+/book/
+**/book/
+**/site/
+**/public/
+**/static/
+**/docs/
+**/target/wasm32-unknown-unknown/release/*.wasm
+
+# ===========================================
+# 🧱 Security
+# ===========================================
+# never commit private keys or credentials
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.keystore
+*.secrets
