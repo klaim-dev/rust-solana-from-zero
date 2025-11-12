@@ -5,11 +5,11 @@
 
 **Foundation (30 days)**  
 ```
-[##----------------------------] 2 / 30
+[###---------------------------] 3 / 30
 ```
 - ✅ [day01](foundation/day01) — variables, String/&str, stack vs heap  
 - ✅ [day02](foundation/day02) — arithmetic, logic, if/else  
-- ⏳ [day03](Soon) — functions, params, tuples, return  
+- ✅ [day03](foundation/day03) — functions, params, tuples, return  
 - ⏳ [day04](Soon) — ownership, move/clone/Copy  
 - ⏳ [day05](Soon) — borrowing, &T/&mut T, slices, split_at_mut  
 - ⏳ [day06](Soon) — Result/Option, ?, domain error enum, checked arithmetic  
