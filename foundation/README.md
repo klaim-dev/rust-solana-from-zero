@@ -5,13 +5,13 @@
 
 **Foundation (30 days)**  
 ```
-[####--------------------------] 4 / 30
+[#####-------------------------] 5 / 30
 ```
 - ✅ [day01](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day01) — variables, String/&str, stack vs heap  
 - ✅ [day02](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day02) — arithmetic, logic, if/else  
 - ✅ [day03](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day03) — functions, params, tuples, return  
 - ✅ [day04](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day04) — ownership, move/clone/Copy  
-- ⏳ [day05](Soon) — borrowing, &T/&mut T, slices, split_at_mut  
+- ✅ [day05](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day05) — borrowing, &T/&mut T, slices, split_at_mut  
 - ⏳ [day06](Soon) — Result/Option, ?, domain error enum, checked arithmetic  
 - ⏳ [day07](Soon) — parsing layer, Result/?/ok_or/map_err, thiserror + Display  
 - ⏳ [day08](Soon) — refactor to ?, single &mut-pair helper, checked_* money, normalized errors  
