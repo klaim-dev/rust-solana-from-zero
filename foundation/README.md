@@ -5,7 +5,7 @@
 
 **Foundation (30 days)**  
 ```
-[#######-----------------------] 7 / 30
+[########----------------------] 8 / 30
 ```
 - ✅ [day01](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day01) — variables, String/&str, stack vs heap  
 - ✅ [day02](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day02) — arithmetic, logic, if/else  
@@ -14,7 +14,7 @@
 - ✅ [day05](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day05) — borrowing, &T/&mut T, slices, split_at_mut  
 - ✅ [day06](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day06) — Option, ?, checked arithmetic  
 - ⏳ [day07](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day07) — parsing layer, Result/?/ok_or/map_err, thiserror + Display  
-- ⏳ [day08](Soon) — refactor to ?, single &mut-pair helper, checked_* money, normalized errors  
+- ⏳ [day08](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day08) — refactor to ?, single &mut-pair helper, normalized errors  
 - ⏳ [day09](Soon) — impl, methods, ergonomics  
 - … up to day30
 
