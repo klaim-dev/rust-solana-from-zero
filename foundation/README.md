@@ -5,7 +5,7 @@
 
 **Foundation (30 days)**  
 ```
-[#########---------------------] 9 / 30
+[##########--------------------] 10 / 30
 ```
 - ✅ [day01](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day01) — variables, String/&str, stack vs heap  
 - ✅ [day02](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day02) — arithmetic, logic, if/else  
@@ -16,6 +16,7 @@
 - ✅ [day07](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day07) — parsing layer, Result/?/ok_or/map_err, thiserror + Display  
 - ✅ [day08](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day08) — refactor to ?, single &mut-pair helper, normalized errors  
 - ✅ [day09](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day09) — struct, impl, methods, and User validation  
+- ✅ [day10](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day10) — user registration + duplicate error.  
 - … up to day30
 
 _DevLog rule: one day → one commit (plus tiny follow‑ups if needed)._
