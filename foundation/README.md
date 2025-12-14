@@ -5,7 +5,7 @@
 
 **Foundation (30 days)**  
 ```
-[#############-----------------] 13 / 30
+[##############----------------] 14 / 30
 ```
 - ✅ [day01](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day01) — variables, String/&str, stack vs heap  
 - ✅ [day02](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day02) — arithmetic, logic, if/else  
@@ -20,6 +20,7 @@
 - ✅ [day11](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day11) — Module Tree.  
 - ✅ [day12](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day12) — `Vec<T>`, Slices & Basic Iterators.  
 - ✅ [day13](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day13) — Indices, and `.entry()`.  
+- ✅ [day14](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day14) — Iterator Pipelines.  
 
 - … up to day30
 
