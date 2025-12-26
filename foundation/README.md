@@ -5,7 +5,7 @@
 
 **Foundation (30 days)**  
 ```
-[##################------------] 18 / 30
+[###################-----------] 19 / 30
 ```
 - ✅ [day01](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day01) — variables, String/&str, stack vs heap  
 - ✅ [day02](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day02) — arithmetic, logic, if/else  
@@ -25,6 +25,7 @@
 - ✅ [day16](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day16) — In-memory catalog with CRUD.  
 - ✅ [day17](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day17) — Catalog CLI (stdin → parse → domain → render).  
 - ✅ [day18](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day18) — Enums & Match: Type-Safe Domain States (Order Lifecycle).  
+- ✅ [day19](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day19) — Traits & Bounds.  
 
 
 - … up to day30
