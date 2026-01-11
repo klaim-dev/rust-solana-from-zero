@@ -5,7 +5,7 @@
 
 **Foundation (30 days)**  
 ```
-[####################----------] 20 / 30
+[#####################---------] 21 / 30
 ```
 - ✅ [day01](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day01) — variables, String/&str, stack vs heap  
 - ✅ [day02](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day02) — arithmetic, logic, if/else  
@@ -27,6 +27,7 @@
 - ✅ [day18](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day18) — Enums & Match: Type-Safe Domain States (Order Lifecycle).  
 - ✅ [day19](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day19) — Traits & Bounds.  
 - ✅ [day20](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day20) — Derive Mastery: Types That Work in Systems.  
+- ✅ [day21](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day21) — Filesystem & Buffering.  
 
 
 - … up to day30
