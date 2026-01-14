@@ -1,0 +1,4 @@
+# Example config.toml for invctl
+app_env = "dev"
+data_file = "./inventory.txt"
+page_size = 50
