@@ -1,0 +1,2 @@
+pipeline_raw = "trim,normalize_space,space_to_underscore,lower_sku"
+data_file = "./data.csv"
