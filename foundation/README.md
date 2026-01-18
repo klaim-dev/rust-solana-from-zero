@@ -5,7 +5,7 @@
 
 **Foundation (30 days)**  
 ```
-[########################------] 24 / 30
+[#########################-----] 25 / 30
 ```
 - ✅ [day01](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day01) — variables, String/&str, stack vs heap  
 - ✅ [day02](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day02) — arithmetic, logic, if/else  
@@ -31,6 +31,7 @@
 - ✅ [day22](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day22) — CLI args, modes, flags, usage errors (no clap).  
 - ✅ [day23](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day23) — Config Layer: fail-fast, typed settings, zero surprises.  
 - ✅ [day24](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day24) — Mini-architecture: Runtime Pipeline with Traits, Enums & Config.  
+- ✅ [day25](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day25) — Domain-Driven Rust Project.  
 
 
 - … up to day30
