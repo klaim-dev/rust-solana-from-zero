@@ -1,0 +1,5 @@
+ORDER id=1 customer="alice" status=draft
+ITEM order_id=1 sku=sku1 qty=1
+ORDER id=2 customer="bob" status=confirmed
+ITEM order_id=2 sku=sku1 qty=2
+ITEM order_id=2 sku=sku2 qty=5
