@@ -5,7 +5,7 @@
 
 **Foundation (30 days)**  
 ```
-[############################--] 28 / 30
+[#############################-] 29 / 30
 ```
 - ✅ [day01](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day01) — variables, String/&str, stack vs heap  
 - ✅ [day02](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day02) — arithmetic, logic, if/else  
@@ -35,6 +35,7 @@
 - ✅ [day26](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day26) — Refactor & Cleanliness.  
 - ✅ [day27](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day27) — Borrow Checker Traps & Lifetimes 101.  
 - ✅ [day28](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day28) — Refactor on Autopilot.  
+- ✅ [day29](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day29) — Tooling & Micro-Benchmark: Make Code Measurable.  
 
 
 - … up to day30
