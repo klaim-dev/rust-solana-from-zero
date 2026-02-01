@@ -1,7 +1,7 @@
 # 🖧 Rust Backend — 40 Days (vFinal)
 
-**Live Progress:** `Day 0 / 40`  
-`[----------]` (0%)
+**Live Progress:** `Day 01 / 40`  
+`[#---------]` (0%)
 
 _Updated manually. No fake numbers._
 
