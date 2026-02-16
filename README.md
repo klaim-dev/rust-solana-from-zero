@@ -1,165 +1,220 @@
-<div align="center">
-  
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png" alt="Rust Logo" width="90" height="90">
-<img src="https://raw.githubusercontent.com/solana-labs/solana-web3.js/master/assets/solana-logo.png" alt="Solana Logo" width="90" height="90">
+### 🧱 Rust Foundation — 30 Days (vFinal)
 
-# **Rust + Solana: From Zero**
 
-**A public, day-by-day engineering log**
+## Live Progress
 
-*From "Hello, Rust" to production-grade backends to on-chain programs on Solana*
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![Rust](https://img.shields.io/badge/Rust-stable-orange?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![Solana](https://img.shields.io/badge/Solana-Web3-9945FF?style=for-the-badge&logo=solana&logoColor=white)](https://solana.com/)
-[![Code > Comfort](https://img.shields.io/badge/Code%20%3E%20Comfort-8A2BE2?style=for-the-badge)](#)
-
-</div>
-
----
-
-## TL;DR
-
-> **One monorepo. Six phases. Daily verifiable progress.**
-
-| Phase | Duration | Status | Focus |
-|-------|----------|--------|-------|
-| **1. Rust Foundation** | 30 days | ![Completed](https://img.shields.io/badge/Status-Completed-brightgreen) | Core Rust mastery |
-| **2. Solana Foundations** | 21 days | ![In Progress](https://img.shields.io/badge/Status-Active-blue) | On-chain core + off-chain scaffold |
-| **3. Solana Intermediate** | 21 days | ![Pending](https://img.shields.io/badge/Status-Pending-lightgrey) | Escrow/CPI/security + prod hardening |
-| **4. Engine Core** | 10 days | ![Pending](https://img.shields.io/badge/Status-Pending-lightgrey) | Pipeline abstractions + runtime primitives |
-| **5. DEX Aggregator** | 40 days | ![Pending](https://img.shields.io/badge/Status-Pending-lightgrey) | On-chain routing + off-chain realtime engine |
-| **6. Ecosystem Sprint** | 10 days | ![Pending](https://img.shields.io/badge/Status-Pending-lightgrey) | PRs, bounties, grants, visibility |
-
----
-
-## Roadmap
-
-```mermaid
-graph LR
-    A[Foundation] -->|30 days| B[Solana Foundations]
-    B -->|21 days| C[Solana Intermediate]
-    C -->|21 days| D[Engine Core]
-    D -->|10 days| E[DEX Aggregator]
-    E -->|40 days| F[Ecosystem Sprint]
-    
-    style A fill:#2ea44f
-    style B fill:#58a6ff
-    style C fill:#6e7681
-    style D fill:#6e7681
-    style E fill:#6e7681
-    style F fill:#6e7681
+**Foundation (30 days)**  
 ```
-
----
-
-## Daily Format
-
-**Stages 1-4:**
+[##############################] 30 / 30
 ```
-5h Solana development
-2h Off-chain production kit
-0.5h Public log
-```
+- ✅ [day01](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day01) — variables, String/&str, stack vs heap  
+- ✅ [day02](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day02) — arithmetic, logic, if/else  
+- ✅ [day03](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day03) — functions, params, tuples, return  
+- ✅ [day04](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day04) — ownership, move/clone/Copy  
+- ✅ [day05](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day05) — borrowing, &T/&mut T, slices, split_at_mut  
+- ✅ [day06](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day06) — Option, ?, checked arithmetic  
+- ✅ [day07](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day07) — parsing layer, Result/?/ok_or/map_err, thiserror + Display  
+- ✅ [day08](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day08) — refactor to ?, single &mut-pair helper, normalized errors  
+- ✅ [day09](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day09) — struct, impl, methods, and User validation  
+- ✅ [day10](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day10) — user registration + duplicate error.  
+- ✅ [day11](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day11) — Module Tree.  
+- ✅ [day12](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day12) — `Vec<T>`, Slices & Basic Iterators.  
+- ✅ [day13](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day13) — Indices, and `.entry()`.  
+- ✅ [day14](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day14) — Iterator Pipelines.  
+- ✅ [day15](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day15) — Control Flow Patterns & Absence Semantics.  
+- ✅ [day16](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day16) — In-memory catalog with CRUD.  
+- ✅ [day17](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day17) — Catalog CLI (stdin → parse → domain → render).  
+- ✅ [day18](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day18) — Enums & Match: Type-Safe Domain States (Order Lifecycle).  
+- ✅ [day19](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day19) — Traits & Bounds.  
+- ✅ [day20](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day20) — Derive Mastery: Types That Work in Systems.  
+- ✅ [day21](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day21) — Filesystem & Buffering.  
+- ✅ [day22](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day22) — CLI args, modes, flags, usage errors (no clap).  
+- ✅ [day23](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day23) — Config Layer: fail-fast, typed settings, zero surprises.  
+- ✅ [day24](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day24) — Mini-architecture: Runtime Pipeline with Traits, Enums & Config.  
+- ✅ [day25](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day25) — Domain-Driven Rust Project.  
+- ✅ [day26](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day26) — Refactor & Cleanliness.  
+- ✅ [day27](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day27) — Borrow Checker Traps & Lifetimes 101.  
+- ✅ [day28](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day28) — Refactor on Autopilot.  
+- ✅ [day29](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day29) — Tooling & Micro-Benchmark: Make Code Measurable.  
+- ✅ [day30](https://github.com/klaim-dev/rust-solana-from-zero/tree/foundation/foundation/day30) — 30 Days (Production-style).  
+
+_DevLog rule: one day → one commit (plus tiny follow‑ups if needed)._
 
 ---
 
-## Repository Structure
 
-```
-rust-solana-from-zero/
-|-- foundation/                    # 30-day Rust foundation (archived)
-|-- solana/
-|   |-- stage1-foundations/        # On-chain core + off-chain scaffold
-|   |   |-- notes/                 # Daily learning notes
-|   |   |-- programs/              # Anchor/native programs
-|   |   |-- offchain/              # Axum/SQLx service
-|   |-- stage2-intermediate/       # Escrow, CPI, security
-|   |-- stage3-engine-core/        # Pipeline abstractions
-|   |-- stage4-dex-aggregator/     # DEX routing engine
-|   |-- stage5-ecosystem-sprint/   # PRs, bounties, grants
-|-- README.md
-```
+## Curriculum
 
-### Key Principles
+### 🔵 Block 1 (Days 1–10): Language Basics
 
-| Rule | Description |
-|------|-------------|
-| **Real Artifacts** | Every `dayXX` folder ships code, notes, and tests |
-| **Reproducible** | Clone build test works for every day |
-| **Daily README** | Each day has its own DevLog with focus, tasks, invariants, tests, decisions |
-| **No Empty Folders** | If there's a folder, there's real code or notes |
+**Day 1.** Variables, String/&str, stack vs heap  
+_Practice:_ functions, concatenation, slices.  
+_Artifact:_ `day01_basics.rs`.
 
----
+**Day 2.** Arithmetic/logic, `if/else`  
+_Practice:_ calculator with flags.  
+_Artifact:_ `day02_calc.rs`.
 
-## Phase Specifications
+**Day 3.** Functions, params, tuples, `return`  
+_Practice:_ string normalization utility.  
+_Artifact:_ `day03_utils.rs` + 3 unit tests.
 
-| Stage | Spec | Focus |
-|-------|------|-------|
-| **Rust Foundation** | [`foundation/README.md`](foundation/README.md) | Core Rust fundamentals |
-| **Solana Foundations** | [`solana/stage1-foundations/README.md`](solana/stage1-foundations/README.md) | On-chain basics |
-| **Solana Intermediate** | [`solana/stage2-intermediate/README.md`](solana/stage2-intermediate/README.md) | Advanced patterns |
-| **Engine Core** | [`solana/stage3-engine-core/README.md`](solana/stage3-engine-core/README.md) | Runtime primitives |
-| **DEX Aggregator** | [`solana/stage4-dex-aggregator/README.md`](solana/stage4-dex-aggregator/README.md) | Full DEX implementation |
-| **Ecosystem Sprint** | [`solana/stage5-ecosystem-sprint/README.md`](solana/stage5-ecosystem-sprint/README.md) | Community contribution |
+**Day 4.** Ownership: move, clone, Copy  
+_Practice:_ find & remove unnecessary `clone`.  
+_Artifact:_ table “where move/clone/Copy”.
 
-Each spec defines: blocks, days, Go/No-Go criteria, and required artifacts.
+**Day 5.** Borrowing: `&`, `&mut`  
+_Practice:_ in-place struct updates.  
+_Artifact:_ `day05_borrow.rs`.
 
----
+**Day 6.** `Option`, `match`, `if let`  
+_Practice:_ lookups in `HashMap<Option<T>>`.  
+_Artifact:_ `day06_option.rs`.
 
-## Branching Strategy
+**Day 7.** `Result`, `?`, `map_err`, `thiserror` + `Display`  
+_Practice:_ parser with domain errors, human-readable messages.  
+_Artifact:_ `day07_result.rs`.
 
-| Branch | Status |
-|--------|--------|
-| `foundation` | Frozen (completed) |
-| `stage1-foundations` | Active |
-| `stage2-intermediate` | Pending |
-| `stage3-engine-core` | Pending |
-| `stage4-dex-aggregator` | Pending |
-| `stage5-ecosystem-sprint` | Pending |
+**Day 8.** Review of Days 4–7 + mini‑quiz  
+_Practice:_ refactor “to `?`”, clean error flow.  
+_Artifact:_ diff “before/after”.
 
-> `main` branch stays clean and points to the current active stage.
+**Day 9.** `struct`, `impl`, methods  
+_Practice:_ `User` model with validations.  
+_Artifact:_ `day09_struct_impl.rs`.
+
+**Day 10.** Mini‑model: `struct + Result + match`  
+_Practice:_ user registration + duplicate error.  
+_Artifact:_ `mini_model_v1/` + tests.
+
+**Go/No‑Go for Block 1:**
+- No `unwrap` in the production path.  
+- You can clearly explain `self` / `&self` / `&mut self`.  
+- 10+ green unit tests.
 
 ---
 
-## DevLog Rules
+### 🟡 Block 2 (Days 11–17): Organization + Collections
 
-> **Non-negotiable principles for this repository**
+**Day 11.** Modules: `mod/use/pub`, file tree  
+_Practice:_ split `mini_model_v1` into modules.  
+_Artifact:_ `mini_model_v2/` (+ README).
 
-| Rule | Description |
-|------|-------------|
-| **Daily Commits** | One day = one meaningful commit (plus tiny fixes) |
-| **No Fake Progress** | No empty day folders, no placeholder content |
-| **No Panics** | No `unwrap()` / `expect()` in production paths |
-| **Edge Cases** | Negative and edge-case tests are mandatory |
-| **Typed Errors** | `thiserror` + `Display` for human-readable messages |
-| **Clean Architecture** | Domain / app / infra boundaries don't leak |
-| **English First** | Documentation accessible to any engineer |
-| **Reproducibility** | Clone build test must work everywhere |
-| **Friday Logs** | Decision log (8-10 lines) every Friday |
+**Day 12.** `Vec<T>` & iterators (basics)  
+_Practice:_ filters, maps, slices.  
+_Artifact:_ `day12_vec_iter.rs`.
+
+**Day 13.** `HashMap<K, V>`  
+_Practice:_ indices by id/email, `.entry()`.  
+_Artifact:_ `day13_hashmap.rs`.
+
+**Day 14.** Loops + adapters (`map/filter/flat_map`) + `try_fold/try_for_each`  
+_Practice:_ pipeline with correct early error return; `collect::<Result<Vec<_>, _>>()`.  
+_Artifact:_ `day14_iter_adapters.rs`.
+
+**Day 15.** Nested `match`, `if let` (patterns)  
+_Practice:_ unpack nested `Option<Result<_>>`.  
+_Artifact:_ `day15_patterns.rs`.
+
+**Day 16.** Mini‑project “Catalog”  
+_Practice:_ in‑memory CRUD, secondary index (`HashMap`), anti‑N+1 test.  
+_Artifact:_ `catalog_v1/` + tests.
+
+**Day 17.** Input/parsing: `stdin`, `parse`, `FromStr` & validation  
+_Practice:_ CLI for “Catalog”, parsing with domain errors (`map_err`).  
+_Artifact:_ `catalog_cli/`.
+
+**Go/No‑Go for Block 2:**
+- Modules wired correctly, collections feel solid.  
+- CLI with tests, secondary index, no `unwrap`.
 
 ---
 
-## Who This Is For
+### 🟣 Block 3 (Days 18–24): Architecture
 
-- **Future me** - a time capsule of learning
-- **Reviewers / Leads** - transparent progress tracking
-- **Anyone** wanting a real Rust Solana path without marketing noise
+**Day 18.** `enum + match`, type‑safe domain state  
+_Artifact:_ `day18_enum.rs`.
+
+**Day 19.** `trait`, bounds (`T: Display + Clone`), `impl Trait`  
+_Artifact:_ `day19_trait_bounds.rs`.
+
+**Day 20.** `#[derive]`: `Debug`, `Clone`, `Eq`, `Hash`, `Default`, `PartialEq/Ord`  
+_Artifact:_ comparison: derive vs manual impl.
+
+**Day 21.** Files: read/write, buffering  
+_Artifact:_ `day21_fs.rs`.
+
+**Day 22.** Program args (`std::env::args`)  
+_Artifact:_ CLI mode flags.
+
+**Day 23.** Config: `serde/toml`, `dotenvy`  
+_Artifact:_ `config.rs` + `.env.example`.
+
+**Day 24.** Review: `enum + trait + Vec` (mini‑arch)  
+_Practice:_ “Catalog v2” via trait interfaces.  
+_Artifact:_ `catalog_v2/`.
+
+**Go/No‑Go for Block 3:**
+- Trait interfaces, enum states, and a config layer are in place.
+
+---
+
+### 🟢 Block 4 (Days 25–30): Consolidation + Missing Bricks
+
+**Day 25.** Capstone CLI: “Orders v1”  
+_Practice:_ modules, domain errors, tests.  
+_Artifact:_ `orders_v1/`.
+
+**Day 26.** Review of key items  
+_Artifact:_ checklist of “cleanliness rules” (errors, collections, modules).
+
+**Day 27.** Borrow checker, move pitfalls + Lifetimes 101  
+_Practice:_ 3 cases with explanations (incl. why you can’t return a ref without a lifetime from a struct).  
+_Artifact:_ `day27_lifetimes.rs`.
+
+**Day 28.** Refactor “on autopilot”  
+_Practice:_ PR‑style, review notes.  
+_Artifact:_ diff “before/after”.
+
+**Day 29.** Environment setup + first micro‑bench  
+_Practice:_ `clippy`, `rustfmt`, `nextest`, `criterion`; bench `Vec::with_capacity` vs none.  
+_Artifact:_ `Makefile/justfile`, CI sketch, `bench_report.md`.
+
+**Day 30.** Finale: “ready for a project”  
+_Practice:_ README “What I can do” + plans.  
+_Artifact:_ `README.md`.
+
+**Go/No‑Go for Stage (30 days):**
+- 3–4 mini‑projects; unified `Error` type with `Display`.  
+- `FromStr` / conversions (`map_err`), trait bounds, basic lifetimes covered.  
+- One micro‑bench with “before/after” findings.  
+- No `unwrap` in the production path anywhere.
+
+**Consolidation rituals (do not skip):**
+- Days **8, 16, 24, 30**: short decision log (8–10 lines: what broke/fixed/why kept).  
+- Day **29**: save bench graphs/results — useful later in backend work.
+
+
+## FAQ
+
+**Why split by days?**  
+To keep momentum and make progress auditable. Each day is a scoped, testable slice.
+
+**Can I reuse or learn from this?**  
+Yes. Fork it, adapt, or open issues/PRs if you spot improvements.
+
+**Where are the “real” projects?**  
+After Foundation, you’ll see `backend/` and `solana/` with production‑style services and on‑chain programs.
+
+---
+
+## Follow
+
+- GitHub — https://github.com/klaim-dev  
+- X — https://x.com/klaimdev
 
 ---
 
 ## License
 
-<div align="center">
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-**Built with determination and a lot of coffee**
-
-[Start from Day 1](foundation/) | [Current Progress](solana/stage1-foundations/)
-
-</div>
+MIT — see [LICENSE](/LICENSE).
